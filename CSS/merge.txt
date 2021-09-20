@@ -1,0 +1,16 @@
+However, what if two different properties from different rules target the same elements, they will merge into one and the element will get both properties.
+
+Let’s take a quick look at this example:
+P {
+color: blue;
+}
+
+
+<style>
+p {
+font-size: 12px;
+}
+</style>
+
+The p element will be a blue-colored text with font size 12px which means that the two properties will be applied to the p element.
+And this rule is called:  merge rule.
